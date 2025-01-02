@@ -1,5 +1,5 @@
 import asyncio
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram import filters
 
 
