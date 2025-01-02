@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired, InviteRequestSent, UserAlreadyParticipant
 from Yukki import Owner
-from YukkiMusic import app, userbot
-from YukkiMusic.utils.database import get_assistant
+from AviaxMusic import app, userbot
+from AviaxMusic.utils.database import get_assistant
 
 
 @app.on_message(filters.command("join") & filters.group)
