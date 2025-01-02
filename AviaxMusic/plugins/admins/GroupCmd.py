@@ -1,7 +1,7 @@
 from pyrogram import enums
 from pyrogram.enums import ChatType
 from pyrogram import filters, Client
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from Yukki import Owner
 
