@@ -6,12 +6,12 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     UserAdminInvalid,
     BadRequest
 )
-from YukkiMusic import app
+from AviaxMusic import app
 from Yukki import Owner
 from config import *
 from pyrogram.errors import RPCError
 import requests 
-from YukkiMusic.plugins.admins.Ban import extract_user, mention
+from AviaxMusic.plugins.admins.Ban import extract_user, mention
 
 
 async def unmute_user(user_id, first_name, admin_id, admin_name, chat_id, message):
