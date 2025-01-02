@@ -2,9 +2,9 @@ import random
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ChatPrivileges
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, BadRequest
-from YukkiMusic import app
+from AviaxMusic import app
 import requests
-from YukkiMusic.plugins.admins.Ban import mention, extract_user
+from AviaxMusic.plugins.admins.Ban import mention, extract_user
 from config import OWNER_ID, LOG_GROUP_ID
 from Yukki import Owner
 
