@@ -4,9 +4,9 @@ import requests
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatPrivileges
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid, BadRequest
-from YukkiMusic import app, LOGGER
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.plugins.admins.Ban import mention, extract_user
+from AviaxMusic import app, LOGGER
+from AviaxMusic.misc import SUDOERS
+from AviaxMusic.plugins.admins.Ban import mention, extract_user
 from config import LOG_GROUP_ID, OWNER_ID
 from Yukki import Owner
 
