@@ -4,7 +4,7 @@ import time
 from Yukki import Owner
 import datetime
 from collections import defaultdict
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 message_counts = defaultdict(list)
