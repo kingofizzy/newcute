@@ -7,7 +7,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 import requests
 from Yukki import Owner
 from AviaxMusic import app, LOGGER
-from YukkiMusic.misc import SUDOERS
+from AviaxMusic.misc import SUDOERS
 from pyrogram.errors import UserNotParticipant, PeerIdInvalid
 from config import LOG_GROUP_ID, OWNER_ID
 from pyrogram.types import *
