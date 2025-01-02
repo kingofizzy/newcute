@@ -8,11 +8,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message, CallbackQuery
 from config import START_IMG_URL
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import get_lang, is_commanddelete_on
-from YukkiMusic.utils.decorators.language import LanguageStart, languageCB
-from YukkiMusic.utils.inline.help import *
+from AviaxMusic import app
+from AviaxMusic.misc import SUDOERS
+from AviaxMusic.utils.database import get_lang, is_commanddelete_on
+from AviaxMusic.utils.decorators.language import LanguageStart, languageCB
+from AviaxMusic.utils.inline.help import *
 
 HELP_COMMAND = get_command("HELP_COMMAND")
 
