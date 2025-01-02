@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 from pyrogram.types import InputMediaPhoto
