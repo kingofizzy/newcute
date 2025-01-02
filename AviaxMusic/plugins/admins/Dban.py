@@ -6,12 +6,12 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 import requests
 from Yukki import Owner
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
+from AviaxMusic import app
+from AviaxMusic.misc import SUDOERS
 from pyrogram.errors import UserNotParticipant
 from config import LOG_GROUP_ID, OWNER_ID
 from pyrogram.types import *
-from YukkiMusic.plugins.admins.Ban import extract_user, mention
+from AviaxMusic.plugins.admins.Ban import extract_user, mention
 
 
 async def dban_user(user_id, first_name, admin_id, admin_name, chat_id, reason, message, time=None):
