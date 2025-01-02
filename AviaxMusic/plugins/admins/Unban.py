@@ -5,11 +5,11 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     BadRequest
 )
 import requests
-from YukkiMusic import app
+from AviaxMusic import app
 import datetime
 from Yukki import Owner
 import random 
-from YukkiMusic.plugins.admins.Ban import extract_user, mention
+from AviaxMusic.plugins.admins.Ban import extract_user, mention
 from pyrogram.errors import UserNotParticipant
 from config import LOG_GROUP_ID, OWNER_ID
 from pyrogram.types import *
