@@ -1,8 +1,8 @@
 import re
-from YukkiMusic import app
+from AviaxMusic import app
 from Yukki import Owner
-from YukkiMusic.utils.database.filtersdb import *
-from YukkiMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from AviaxMusic.utils.database.filtersdb import *
+from AviaxMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from pyrogram import filters, enums
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
