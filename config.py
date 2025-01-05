@@ -19,7 +19,16 @@ import re
 
 load_dotenv()
 
+def time_to_seconds(time):
+    stringt = str(time)
+    return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
+
+def seconds_to_time(seconds):
+    minutes = seconds // 60
+    remaining_seconds = seconds % 60
+    return f"{minutes:02d}:{remaining_seconds:02d}"
+    
 XYZ = [
     "https://telegra.ph/file/aaccc060f01052d8b0c56.jpg",
     "https://telegra.ph/file/f95ccd8e2a848997aaecb.jpg",
@@ -190,12 +199,12 @@ MARIN = ["https://telegra.ph/file/1442156ffea729eafc5a2.jpg", "https://telegra.p
 
 # ________________________________________________________________________________#
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "12380656"))
+API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 
 # ________________________________________________________________________________#
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7715739501:AAHC0i5U4HkLstOdCouemk8DT9tkHdJmfJY")
 
 # ________________________________________________________________________________#
 
@@ -206,7 +215,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # ________________________________________________________________________________#
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority")
 
 
 # ________________________________________________________________________________#
@@ -225,7 +234,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 # ________________________________________________________________________________#
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002297624144"))
 
 SONG_DOWNLOAD_DURATION_LIMIT = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "500")
@@ -240,7 +249,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "shivani music")
 # ________________________________________________________________________________#
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "7792739542").split())
 )  # Input type must be interger
 
 
@@ -256,14 +265,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Vivekkumar-IN/YukkiMusic",
+    "https://github.com/Itz-Murali/AviaxMusicV2",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    "",
+    "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",
 )
 
 
@@ -365,7 +374,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 # ________________________________________________________________________________#
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQC86fAAEEvqO0WTzoWcWtJUpYItSnmvMDlalzQeDxafoiQ0Hm1zIPd4urQgsuD10tgNFEML4b4VPm31a8SfII9CTcG3wLL-xJSYeLMDlvSI9fM93BpdeSWLbLvGignIIKKLq_grmrK-AJ5VrUHZH_KkuU8InvNeMxQ51orsDOvfoRNHq_BrLVRv3eQKrR3jAaOzHpvc8gi8VYBHWcHzGrWdN_f4LlPdquBFF4UMFTASZBhGM4VvFyQ57DfUQYi5u7Slmxi7P2PMRXpnYV_EERdgUrGqWJc5V_un7HqYTUf1rOz6uaRh4I73oOZCuml8NvZjUr9LcV4IAhrNCKMb-LTJfdhnngAAAAHf2OWZAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
