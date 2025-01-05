@@ -10,7 +10,7 @@ from config import BANNED_USERS
 from strings import get_command, get_string, helpers
 from AviaxMusic import app
 from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import get_lang, is_commanddelete_on
+from AviaxMusic.utils.database import get_lang
 from AviaxMusic.utils.decorators.language import LanguageStart, languageCB
 from AviaxMusic.utils.inline.help import *
 
