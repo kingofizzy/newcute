@@ -3,6 +3,8 @@ from pyrogram.types import InlineKeyboardButton
 import config
 from AviaxMusic import app
 
+from typing import Union
+
 
 def start_panel(_):
     buttons = [
