@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from AviaxMusic import app
 import requests, json
 from pyrogram import client, filters
 from pyrogram.errors import MediaCaptionTooLong
