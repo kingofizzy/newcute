@@ -6,7 +6,7 @@ import aiohttp
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
 from config import YOUTUBE_IMG_URL
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 def rectangle(img, size):
