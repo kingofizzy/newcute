@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from motor.motor_asyncio import AsyncIOMotorClient
 import requests
 from config import MONGO_DB_URI
-from YukkiMusic import app
+from AviaxMusic import app
 
 mongo_client = AsyncIOMotorClient(MONGO_DB_URI)
 db = mongo_client.chatbotdbb
