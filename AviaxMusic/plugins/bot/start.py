@@ -37,7 +37,7 @@ from AviaxMusic.utils.database import (
 from AviaxMusic.utils.decorators.language import LanguageStart
 from AviaxMusic.utils.formatters import get_readable_time
 
-from AviaxMusic.utils.inline import alive_panel, private_panel, start_pannel
+from AviaxMusic.utils.inline import private_panel, start_pannel
 
 loop = asyncio.get_running_loop()
 
@@ -214,25 +214,6 @@ async def start_comm(client, message: Message, _):
             )
 
 
-@app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
-@LanguageStart
-async def testbot(client, message: Message, _):
-    out = alive_panel(_)
-    uptime = int(time.time() - _boot_)
-    chat_id = message.chat.id
-    if config.START_IMG_URL:
-        await message.reply_photo(
-            photo=choice(XYZ),
-            caption=_["start_8"].format(app.mention, get_readable_time(uptime)),
-            reply_markup=InlineKeyboardMarkup(out),
-        )
-    else:
-        await message.reply_photo(
-            photo=choice(XYZ),
-            caption=_["start_8"].format(app.mention, get_readable_time(uptime)),
-            reply_markup=InlineKeyboardMarkup(out),
-        )
-    return await add_served_chat(message.chat.id)
 
 
 @app.on_message(filters.new_chat_members, group=-1)
