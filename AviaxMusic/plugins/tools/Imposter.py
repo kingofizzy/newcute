@@ -4,9 +4,9 @@ import requests
 import random 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from YukkiMusic.utils.database.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
-from YukkiMusic import app
-from YukkiMusic.utils import ZeroTwo
+from AviaxMusic.utils.database.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
+from AviaxMusic import app
+from AviaxMusic.utils import ZeroTwo
 
 
 BUTTON = InlineKeyboardMarkup(
