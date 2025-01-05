@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
-from YukkiMusic import app 
-from YukkiMusic.core.mongo import nightmodedb as nightdb
+from AviaxMusic import app 
+from AviaxMusic.core.mongo import nightmodedb as nightdb
 
 
 async def nightmode_on(chat_id : int) :
