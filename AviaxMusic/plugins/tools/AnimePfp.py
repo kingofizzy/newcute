@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 import requests, random 
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto)
-from YukkiMusic import app
+from AviaxMusic import app
 import nekos
 from config import Zero, MARIN, RANDOMIMG
 
