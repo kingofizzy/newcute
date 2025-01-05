@@ -1,5 +1,5 @@
 from pyrogram import client, filters
-from YukkiMusic import app
+from AviaxMusic import app
 import asyncio
 import random
 
