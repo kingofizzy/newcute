@@ -22,7 +22,7 @@ from config import BANNED_USERS, START_IMG_URL, XYZ, OWNER_ID
 from strings import get_string
 from AviaxMusic import Telegram, YouTube, app
 from AviaxMusic.misc import SUDOERS, _boot_
-from AviaxMusic.plugins.play.playlist import del_plist_msg
+#from AviaxMusic.plugins.play.playlist import del_plist_msg
 from AviaxMusic.plugins.sudo.sudoers import sudoers_list
 from AviaxMusic.utils.database import (
     add_served_chat,
