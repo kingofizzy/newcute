@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters
 import requests
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
