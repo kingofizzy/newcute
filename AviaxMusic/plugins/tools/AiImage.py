@@ -3,7 +3,7 @@ import base64
 import requests
 import io, os
 from config import LOG_GROUP_ID, OWNER_ID
-from YukkiMusic import app 
+from AviaxMusic import app 
 import random 
 import time
 import json
