@@ -1,6 +1,6 @@
 import re
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from YukkiMusic.utils.database.notesdb import isNoteExist
+from AviaxMusic.utils.database.notesdb import isNoteExist
 from enum import IntEnum, unique
 
 BTN_URL_REGEX = re.compile(
