@@ -1,6 +1,6 @@
 import requests 
 from pyrogram import Client, filters
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 @app.on_message(filters.command(["bin", "ccbin", "bininfo"], [".", "!", "/"]))
