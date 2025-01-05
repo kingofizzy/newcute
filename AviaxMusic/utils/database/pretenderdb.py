@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
-from YukkiMusic.core.mongo import db
-from YukkiMusic import app
+from AviaxMusic.core.mongo import db
+from AviaxMusic import app
 
 
 impdb = db.pretenderdbb
