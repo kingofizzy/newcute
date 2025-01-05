@@ -1,7 +1,7 @@
 import re
 from pyrogram import Client, filters
 from pymongo import MongoClient, errors
-from YukkiMusic import app
+from AviaxMusic import app
 from config import LOG_GROUP_ID
 from pyrogram.types import Message
 
