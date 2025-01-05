@@ -3,7 +3,7 @@ import textwrap
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import filters
 from pyrogram.types import Message
-from YukkiMusic import app
+from AviaxMusic import app
 
 @app.on_message(filters.command(["mmf", "memify"]))
 async def memify(_, message: Message):
