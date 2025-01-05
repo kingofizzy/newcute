@@ -1,7 +1,7 @@
 import re
 from AviaxMusic import app
 from Yukki import Owner
-from AviaxMusic.utils.database.filtersdb import *
+from AviaxMusic.utils.database import *
 from AviaxMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from pyrogram import filters, enums
 from pyrogram.enums import ChatMemberStatus
