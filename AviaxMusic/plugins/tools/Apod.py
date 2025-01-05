@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram import client,filters
 from config import LOG_GROUP_ID, OWNER_ID
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
