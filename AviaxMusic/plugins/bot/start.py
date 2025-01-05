@@ -20,11 +20,11 @@ import config
 from config import BANNED_USERS, START_IMG_URL, XYZ
 from config.config import OWNER_ID
 from strings import get_string
-from YukkiMusic import Telegram, YouTube, app
-from YukkiMusic.misc import SUDOERS, _boot_
-from YukkiMusic.plugins.play.playlist import del_plist_msg
-from YukkiMusic.plugins.sudo.sudoers import sudoers_list
-from YukkiMusic.utils.database import (
+from AviaxMusic import Telegram, YouTube, app
+from AviaxMusic.misc import SUDOERS, _boot_
+from AviaxMusic.plugins.play.playlist import del_plist_msg
+from AviaxMusic.plugins.sudo.sudoers import sudoers_list
+from AviaxMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -34,10 +34,10 @@ from YukkiMusic.utils.database import (
     is_on_off,
     is_served_private_chat,
 )
-from YukkiMusic.utils.decorators.language import LanguageStart
-from YukkiMusic.utils.formatters import get_readable_time
+from AviaxMusic.utils.decorators.language import LanguageStart
+from AviaxMusic.utils.formatters import get_readable_time
 
-from YukkiMusic.utils.inline import alive_panel, private_panel, start_pannel
+from AviaxMusic.utils.inline import alive_panel, private_panel, start_pannel
 
 loop = asyncio.get_running_loop()
 
