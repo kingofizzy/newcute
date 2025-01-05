@@ -17,8 +17,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from config import BANNED_USERS, START_IMG_URL, XYZ
-from config.config import OWNER_ID
+from config import BANNED_USERS, START_IMG_URL, XYZ, OWNER_ID
+#from config.config import 
 from strings import get_string
 from AviaxMusic import Telegram, YouTube, app
 from AviaxMusic.misc import SUDOERS, _boot_
