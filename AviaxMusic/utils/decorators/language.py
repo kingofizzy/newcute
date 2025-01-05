@@ -2,7 +2,7 @@ from AviaxMusic.misc import SUDOERS
 from AviaxMusic.utils.database import get_lang, is_maintenance
 from config import SUPPORT_GROUP
 from strings import get_string
-
+from AviaxMusic import app
 
 def language(mystic):
     async def wrapper(_, message, **kwargs):
