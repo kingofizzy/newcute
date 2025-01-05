@@ -1,6 +1,6 @@
 import speedtest
 from pyrogram import Client, filters
-from YukkiMusic import app 
+from AviaxMusic import app 
 
 @app.on_message(filters.command("speedtest"))
 async def speedtest_command(client, message):
