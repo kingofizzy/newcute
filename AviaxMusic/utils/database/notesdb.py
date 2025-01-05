@@ -1,5 +1,5 @@
-from YukkiMusic.core.mongo import notesdb as notes
-from YukkiMusic import app 
+from AviaxMusic.core.mongo import notesdb as notes
+from AviaxMusic import app 
 
 
 
