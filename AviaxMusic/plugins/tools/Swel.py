@@ -5,8 +5,8 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatMemberUpdated
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import MONGO_DB_URI
-from YukkiMusic import app
-from YukkiMusic.utils import ZeroTwo
+from AviaxMusic import app
+from AviaxMusic.utils import ZeroTwo
 
 async def is_admin(chat_id: int, user_id: int) -> bool:
     member = await app.get_chat_member(chat_id, user_id)
