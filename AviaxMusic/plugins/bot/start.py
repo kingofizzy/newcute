@@ -199,7 +199,7 @@ async def start_comm(client, message: Message, _):
         except:
             OWNER = None
         
-        out = private_panel(_, OWNER)
+        out = private_panel(OWNER)
         await message.reply_photo(
             photo=choice(XYZ),
             caption=_["start_2"].format(message.from_user.mention, app.mention),
