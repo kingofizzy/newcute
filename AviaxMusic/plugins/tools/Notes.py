@@ -1,8 +1,8 @@
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram import filters
-from YukkiMusic.core.mongo import *
-from YukkiMusic.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from YukkiMusic.utils.database.notesdb import *
+from AviaxMusic.core.mongo import *
+from AviaxMusic.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from AviaxMusic.utils.database.notesdb import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
