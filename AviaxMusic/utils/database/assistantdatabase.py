@@ -12,8 +12,8 @@ import random
 
 from pytgcalls import PyTgCalls
 
-from YukkiMusic import userbot
-from YukkiMusic.core.mongo import mongodb
+from AviaxMusic import userbot
+from AviaxMusic.core.mongo import mongodb
 
 db = mongodb.assistants
 
