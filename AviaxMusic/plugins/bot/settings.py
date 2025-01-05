@@ -21,8 +21,8 @@ from pyrogram.types import (
 import random
 from config import BANNED_USERS, CLEANMODE_DELETE_MINS, OWNER_ID, XYZ
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.utils.database import (
+from AviaxMusic import app
+from AviaxMusic.utils.database import (
     add_nonadmin_chat,
     get_aud_bit_name,
     get_authuser,
@@ -37,16 +37,16 @@ from YukkiMusic.utils.database import (
     set_playmode,
     set_playtype,
 )
-from YukkiMusic.utils.decorators.admins import ActualAdminCB
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline.settings import (
+from AviaxMusic.utils.decorators.admins import ActualAdminCB
+from AviaxMusic.utils.decorators.language import language, languageCB
+from AviaxMusic.utils.inline.settings import (
     audio_quality_markup,
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     video_quality_markup,
 )
-from YukkiMusic.utils.inline.start import private_panel
+from AviaxMusic.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
