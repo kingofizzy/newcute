@@ -1,5 +1,5 @@
 from base64 import b64decode as m
-from YukkiMusic import app
+from AviaxMusic import app
 import requests
 import json
 from pyrogram import Client, filters
