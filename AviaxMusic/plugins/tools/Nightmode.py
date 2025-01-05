@@ -2,9 +2,9 @@ import random
 import asyncio
 from pyrogram import Client, filters, enums
 import datetime
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, ChatPermissions
-from YukkiMusic.utils.database.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats
+from AviaxMusic.utils.database.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats
 
 
 CLOSE_CHAT = ChatPermissions(
