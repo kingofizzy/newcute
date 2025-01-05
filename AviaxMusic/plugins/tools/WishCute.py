@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from YukkiMusic import app 
+from AviaxMusic import app 
 
 
 @app.on_message(filters.command("wish"))
