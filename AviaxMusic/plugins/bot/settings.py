@@ -113,7 +113,7 @@ async def repoback_back_markup(client, CallbackQuery: CallbackQuery, _):
         OWNER = None 
             
         
-    out = private_panel(_, OWNER)
+    out = private_panel(OWNER)
     
     await CallbackQuery.edit_message_media(
         InputMediaPhoto(media=random.choice(XYZ), caption=_["start_2"].format(CallbackQuery.from_user.mention, app.mention))
