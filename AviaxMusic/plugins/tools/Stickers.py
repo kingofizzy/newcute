@@ -21,8 +21,8 @@ from pyrogram import Client, errors, raw
 from pyrogram.file_id import FileId
 
 
-from YukkiMusic import app
-from YukkiMusic.utils.error import capture_err
+from AviaxMusic import app
+from AviaxMusic.utils.error import capture_err
 
 BOT_USERNAME = app.username
 
