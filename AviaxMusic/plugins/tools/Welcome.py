@@ -17,15 +17,15 @@ from pyrogram.types import (
     User,
 )
 
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.error import capture_err
-from YukkiMusic.utils.database.weldbb import (
+from AviaxMusic import app
+from AviaxMusic.misc import SUDOERS
+from AviaxMusic.utils.error import capture_err
+from AviaxMusic.utils.database.weldbb import (
     del_welcome,
     get_welcome,
     set_welcome,
 )
-from YukkiMusic.utils.database import is_gbanned_user
+from AviaxMusic.utils.database import is_gbanned_user
 
 
 def extract_text_and_keyb(ikb, text: str, row_width: int = 2):
