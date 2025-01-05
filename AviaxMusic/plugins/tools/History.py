@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from YukkiMusic import userbot as us, app
-from YukkiMusic.core.userbot import assistants
+from AviaxMusic import userbot as us, app
+from AviaxMusic.core.userbot import assistants
 
 @app.on_message(filters.command(["sg", "History"]))
 async def sg(client: Client, message: Message):
