@@ -10,7 +10,7 @@ from pyrogram import Client, filters, idle
 import pyrogram, asyncio, random, time
 from pyrogram.errors import FloodWait
 import requests
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.types import Message
 
 LOGO_LINKS = [
