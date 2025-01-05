@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.emoji import *
 import pyrogram 
 
-from YukkiMusic import app 
+from AviaxMusic import app 
 
 
 @app.on_message(filters.command("emoji"))
