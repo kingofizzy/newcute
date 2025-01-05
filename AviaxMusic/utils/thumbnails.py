@@ -80,15 +80,15 @@ async def gen_thumb(videoid):
         else:
             first_line = short_title
             second_line = ""
-        # thanks murli
+
 
         try:
             draw.text(
                 (80, 180),
                 f"{first_line}",
                 fill="white",
-                stroke_width=1,
-                stroke_fill="black",
+             #   stroke_width=1,
+              #  stroke_fill="black",
                 font=font,
             )
             if second_line:
@@ -96,40 +96,40 @@ async def gen_thumb(videoid):
                     (80, 240),
                     f"{second_line}",
                     fill="white",
-                    stroke_width=1,
-                    stroke_fill="black",
+                  #  stroke_width=1,
+                  #  stroke_fill="black",
                     font=font,
                 )
             draw.text(
                 (80, 510),
                 f"00:00",
                 fill="white",
-                stroke_width=1,
-                stroke_fill="black",
+              #  stroke_width=1,
+               # stroke_fill="black",
                 font=font2,
             )
             draw.text(
                 (600, 510),
                 f"{duration}",
                 fill="white",
-                stroke_width=1,
-                stroke_fill="black",
+              #  stroke_width=1,
+             #   stroke_fill="black",
                 font=font2,
             )
             draw.text(
                     (580, 460),
                     f"{views}",
                     fill="white",
-                    stroke_width=1,
-                    stroke_fill="black",
+                  #  stroke_width=1,
+                    #stroke_fill="black",
                     font=font3,
             )
             draw.text(
                     (83, 460),
                     f"{channel}   ",
                     fill="white",
-                    stroke_width=1,
-                    stroke_fill="black",
+                 #   stroke_width=1,
+                  #  stroke_fill="black",
                     font=font3,
             )
         except Exception as e:
@@ -211,7 +211,7 @@ async def gen_qthumb(videoid):
         else:
             first_line = short_title
             second_line = ""
-            # thnx murali 
+ 
 
         try:
             draw.text(
