@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from AviaxMusic import app
 from config import OWNER_ID
 from pyrogram import filters
 from pyrogram.types import (
