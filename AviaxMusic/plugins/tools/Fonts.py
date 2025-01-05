@@ -1,6 +1,6 @@
 import os
-from YukkiMusic import app
-from YukkiMusic.utils.database.font_string import Fonts
+from AviaxMusic import app
+from AviaxMusic.utils.database.font_string import Fonts
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
