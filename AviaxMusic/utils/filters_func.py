@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from YukkiMusic.utils.msg_types import button_markdown_parser
-from YukkiMusic.utils.notes_func import NoteFillings
+from AviaxMusic.utils.msg_types import button_markdown_parser
+from AviaxMusic.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 
