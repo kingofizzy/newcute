@@ -2,7 +2,7 @@ from pyrogram import filters
 from YukkiMusic.utils.error import capture_err
 from io import BytesIO
 from aiohttp import ClientSession
-from YukkiMusic import app
+from AviaxMusic import app
 
 async def make_carbon(code):
     url = "https://carbonara.solopov.dev/api/cook"
