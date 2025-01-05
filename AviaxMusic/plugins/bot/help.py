@@ -12,7 +12,7 @@ from AviaxMusic import app
 from AviaxMusic.misc import SUDOERS
 from AviaxMusic.utils.database import get_lang
 from AviaxMusic.utils.decorators.language import LanguageStart, languageCB
-from AviaxMusic.utils.inline import *
+from AviaxMusic.utils.inline.eg import *
 
 HELP_COMMAND = get_command("HELP_COMMAND")
 
