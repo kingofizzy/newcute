@@ -1,5 +1,5 @@
 from pyrogram import filters
-from YukkiMusic.utils.error import capture_err
+from AviaxMusic.utils.error import capture_err
 from io import BytesIO
 from aiohttp import ClientSession
 from AviaxMusic import app
