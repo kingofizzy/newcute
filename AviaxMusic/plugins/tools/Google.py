@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.enums import ChatAction
 from googlesearch import search
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 @app.on_message(filters.command(["google"]))
