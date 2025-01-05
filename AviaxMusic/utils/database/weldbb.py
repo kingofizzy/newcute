@@ -1,4 +1,4 @@
-from YukkiMusic.core.mongo import mongodb
+from AviaxMusic.core.mongo import mongodb
 
 welcomedb = mongodb.welcome
 
