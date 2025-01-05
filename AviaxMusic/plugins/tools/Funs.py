@@ -1,4 +1,4 @@
-from YukkiMusic import app
+from AviaxMusic import app
 import asyncio
 import requests
 from pyrogram import client, filters
