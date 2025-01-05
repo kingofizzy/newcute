@@ -2,7 +2,7 @@ from pyrogram.types import InputMediaPhoto, Message
 import random
 import json
 import requests
-from YukkiMusic import app
+from AviaxMusic import app
 from bs4 import BeautifulSoup as BSP
 from pyrogram import client, filters
 
