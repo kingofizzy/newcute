@@ -6,7 +6,7 @@ import asyncio
 import os
 import traceback
 import random
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 
