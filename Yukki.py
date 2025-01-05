@@ -6,7 +6,7 @@ from pyrogram import filters
 
 load_dotenv()
 
-Owner = list(map(int, getenv("Owner", "6294902190 7301077117 6764358144").split()))
+Owner = list(map(int, getenv("Owner", "7792739542 7301077117 6764358144").split()))
 
 
 
