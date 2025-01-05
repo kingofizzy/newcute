@@ -13,7 +13,7 @@ import os
 from typing import Dict, List, Union
 
 import config
-from YukkiMusic.core.mongo import mongodb
+from AviaxMusic.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
