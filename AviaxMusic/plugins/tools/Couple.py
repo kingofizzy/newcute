@@ -5,7 +5,7 @@ import asyncio
 from PIL import Image , ImageDraw
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.enums import ChatAction, ChatType
 
 
