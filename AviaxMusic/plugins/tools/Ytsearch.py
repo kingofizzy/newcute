@@ -1,7 +1,7 @@
 import logging
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram import filters
 
 @app.on_message(filters.command(["search", "ytsearch"]))
