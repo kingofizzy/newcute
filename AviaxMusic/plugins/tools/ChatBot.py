@@ -57,23 +57,42 @@ async def enable_disable_chatbot(_, query: types.CallbackQuery):
     else:
         await query.answer("You are not an admin in this group.", show_alert=True)
 
+import requests
+from urllib.parse import urlencode
+from pyrogram import Client, filters, enums
+from pyrogram.types import Message
+
 @app.on_message(filters.text & filters.group, group=10)
 async def handle_message(client: Client, message: Message):
     try:
         chat_id = message.chat.id
 
-        
         if (message.reply_to_message and message.reply_to_message.from_user.is_self) or not message.reply_to_message:
             chatbot_info = await chatbotdatabase.find_one({"chat_id": chat_id})
             if chatbot_info:
-                user_id = message.from_user.id
                 user_message = message.text
                 await client.send_chat_action(message.chat.id, enums.ChatAction.TYPING)
-                api_url = f"http://api.brainshop.ai/get?bid=181999&key=BTx5oIaCq8Cqut3S&uid={user_id}&msg={user_message}"
-                response = requests.get(api_url).json()["cnt"]
-                await message.reply_text(response)
-        else:
-            pass
+
+                
+                base_url = "https://gpt.hazex.workers.dev/"
+                query_params = {'ques': user_message}
+                api_url = f"{base_url}?{urlencode(query_params)}"
+
+                
+                try:
+                    response = requests.get(api_url)
+                    if response.status_code == 200:
+                        api_response = response.json()
+                        if 'answer' in api_response:
+                            await message.reply_text(api_response['answer'])
+                        else:
+                            await message.reply_text("Sorry, I couldn't generate a response.")
+                    else:
+                        await message.reply_text("Failed to connect to the AI service.")
+                except Exception as e:
+                    print(f"Error fetching response: {e}")
+                    await message.reply_text("An error occurred while processing your request.")
+            else:
+                pass
     except Exception as e:
         print(e)
-
