@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 import requests
-from YukkiMusic import app
+from AviaxMusic import app
 from pyrogram.enums import ChatAction, ParseMode
 
 # CREDITS - POKEMONDB.NET
 # And pokeapi.co
-# CODE BANANEKA CREDIT ZEROXCODERZ 
+
 
 POKEAPI_BASE_URL = "https://pokeapi.co/api/v2/"
 
