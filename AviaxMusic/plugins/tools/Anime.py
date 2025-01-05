@@ -7,7 +7,7 @@ from pyrogram.enums import ParseMode
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from YukkiMusic import app
+from AviaxMusic import app
 
 
 info_btn = "More Information"
