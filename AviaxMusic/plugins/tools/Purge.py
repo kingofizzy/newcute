@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from YukkiMusic import app
+from AviaxMusic import app
 from Yukki import Owner
 
 @app.on_message(filters.command("purge"))
