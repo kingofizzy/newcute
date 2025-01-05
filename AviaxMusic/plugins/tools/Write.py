@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from YukkiMusic import app
+from AviaxMusic import app
 import requests
 
 @app.on_message(filters.command("write"))
