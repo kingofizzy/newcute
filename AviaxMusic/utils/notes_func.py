@@ -4,10 +4,10 @@ import html
 import re
 import asyncio
 from pyrogram import client, filters
-from YukkiMusic import app
-from YukkiMusic.utils.database.notesdb import GetNote
+from AviaxMusic import app
+from AviaxMusic.utils.database.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from YukkiMusic.utils.msg_types import button_markdown_parser
+from AviaxMusic.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()
