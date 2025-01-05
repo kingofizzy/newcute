@@ -3,9 +3,9 @@ from PIL import Image, ImageDraw, ImageFont
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 from typing import Union, Optional
-from YukkiMusic import app
+from AviaxMusic import app
 import random
-from YukkiMusic.utils import ZeroTwo
+from AviaxMusic.utils import ZeroTwo
 
 
 async def download_pic(user_id):
