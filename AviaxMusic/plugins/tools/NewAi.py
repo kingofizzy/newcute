@@ -3,9 +3,9 @@ import requests
 import base64
 from io import BytesIO
 from config import LOG_GROUP_ID
-from YukkiMusic.misc import SUDOERS
+from AviaxMusic.misc import SUDOERS
 from PIL import Image
-from YukkiMusic import app
+from AviaxMusic import app
 import os
 from pyrogram.enums import ChatAction
 
