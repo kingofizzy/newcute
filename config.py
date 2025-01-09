@@ -207,7 +207,7 @@ API_HASH = getenv("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 
 # ________________________________________________________________________________#
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7715739501:AAG_K7uKpsl6ac-GdkZFnkCNGe2UcRYX8w")
+BOT_TOKEN = getenv("BOT_TOKEN", "7932576136:AAE7dgqrGCBml7MNhS-DjWy_5owQLXQ2FdY")
 
 # ________________________________________________________________________________#
 
@@ -237,7 +237,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 # ________________________________________________________________________________#
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002297624144"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 SONG_DOWNLOAD_DURATION_LIMIT = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "500")
@@ -252,7 +252,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "shivani music")
 # ________________________________________________________________________________#
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7792739542").split())
+    map(int, getenv("OWNER_ID", "7078122796").split())
 )  # Input type must be interger
 
 
@@ -282,10 +282,10 @@ GIT_TOKEN = getenv(
 # ________________________________________________________________________________#
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/itz_Cute_Shivani"
+    "SUPPORT_CHANNEL", "https://t.me/beast_fox_network"
 )  # Example:- https://t.me/Quizess_prince
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/itz_Cute_Shivani"
+    "SUPPORT_GROUP", "https://t.me/tamila_chatting_tamil"
 )  # Example:- https://t.me/Quizess_prince
 
 # ________________________________________________________________________________#
@@ -377,8 +377,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 # ________________________________________________________________________________#
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQC86fAAo5a57LaNjYCZd5_x9G9JeR1D2Uw5FUhWT9WKlerK4NtnABwtX9LnM1PBp-bkxdSnjGQn0UzpzbSrVb1sm2C21FvYrYztObML5SbRsCPvEq6TwgBC2Sbbcek1x4XNKt9EmodGBjEVS8njjflVQgGU8XfQPzSXztvuNmmCYXGbernHJrBUmFclpgyOjTe_T83r9LP9aAL79pv773S_z_b1MwktS-ZSjK58vG-wBXc9dj-6_zGAJyufS6M-cFXU5zP1K7j72fH1xfjL9tmt9SZcAmMh-Q9HLzrz1mBlGG-HXImkC6cxhw29PFrmZmMhjFMKn6rsdl0EzlkhzH-tvGoGgAAAAHf2OWZAA")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION", "BQEksaEAFMYPeG4wHm8kiBhepjixEnDpjI1RKRp94BYG8CFG2_oO8FawYUZ5oNzg1N5mXBwYXlygHQwsZqSkDAesCEvnK8DfsjxFRYeJ-0olTHj6-7o3t12t_poRSjOMRLOwfpaYLvfMDiEoeI-A5YgaSAkPf5WPp49EbY2ukoYrDJINxZqS54yHtTKYdeYJ55F-ylVwlCIggxkNcgyfA5_Ygs6yjzZvPdehTwh7p53wD229BI53EL-9FrKioLw-9WTOPwmGIeMa7yxdnFwqfDC1UzjLMqPGv02yT-dxRlM28R9CLvkj8KRvEh-MspNnyA9VjjJ70IPf7an_xmZNyww-yiFhCQAAAAHR9VrmAA", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
