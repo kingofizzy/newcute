@@ -377,7 +377,8 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 # ________________________________________________________________________________#
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQEksaEAFMYPeG4wHm8kiBhepjixEnDpjI1RKRp94BYG8CFG2_oO8FawYUZ5oNzg1N5mXBwYXlygHQwsZqSkDAesCEvnK8DfsjxFRYeJ-0olTHj6-7o3t12t_poRSjOMRLOwfpaYLvfMDiEoeI-A5YgaSAkPf5WPp49EbY2ukoYrDJINxZqS54yHtTKYdeYJ55F-ylVwlCIggxkNcgyfA5_Ygs6yjzZvPdehTwh7p53wD229BI53EL-9FrKioLw-9WTOPwmGIeMa7yxdnFwqfDC1UzjLMqPGv02yT-dxRlM28R9CLvkj8KRvEh-MspNnyA9VjjJ70IPf7an_xmZNyww-yiFhCQAAAAHR9VrmAA", None)
+STRING1 = getenv("STRING_SESSION", "BQEksaEAFMYPeG4wHm8kiBhepjixEnDpjI1RKRp94BYG8CFG2_oO8FawYUZ5oNzg1N5mXBwYXlygHQwsZqSkDAesCEvnK8DfsjxFRYeJ-0olTHj6-7o3t12t_poRSjOMRLOwfpaYLvfMDiEoeI-A5YgaSAkPf5WPp49EbY2ukoYrDJINxZqS54yHtTKYdeYJ55F-ylVwlCIggxkNcgyfA5_Ygs6yjzZvPdehTwh7p53wD229BI53EL-9FrKioLw-9WTOPwmGIeMa7yxdnFwqfDC1UzjLMqPGv02yT-dxRlM28R9CLvkj8KRvEh-MspNnyA9VjjJ70IPf7an_xmZNyww-yiFhCQAAAAHR9VrmAA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
