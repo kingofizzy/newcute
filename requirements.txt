@@ -23,8 +23,8 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-uvloop
-yt-dlp
+uvloop
+yt-dlp==2025.1.30.232843.dev0
 youtube-search
-youtube-search-python
+git+https://github.com/Kanha-XD/youtube-search-python
 nekos.py
